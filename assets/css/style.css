@@ -8,6 +8,7 @@ body {
     background-color: #d9dcd6; 
 }
 
+/*primary Style selectors for the header of the webpage */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -16,11 +17,13 @@ body {
 }
 
 .header h1 {
+    /* selector governs size and location of primary header */
     display: inline-block;
     font-size: 48px;
 }
 
 .header nav{
+    /* selector for navigation bar in the header that holds 3 items which are live links serving as menu options for the page */
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -29,25 +32,29 @@ body {
 }
 
 .header li {
+    /*selector controls style for the groupd of three menu items(link) in the navigation bar */
     display: inline-block;
     margin-left: 25px;
-    color: #ffffff;
-    text-decoration: none;
+    /* color: #ffffff;
+    text-decoration: none; */
 }
 
-.menu-options{
+/* .menu-options{
     display: inline-block;
     margin-left: 25px;
     color: #ffffff;
     text-decoration: none;   
-}
+} */
 
 a {
+    /* style for each, individual menu item in the header menu */
     color: #ffffff;
     text-decoration: none; 
 }
 
+/*primary style selectors for the main body of the webpage */
 p {
+    /*selector controls Size of all non-header font on the page */
     font-size: 16px;
 }
 
@@ -61,22 +68,48 @@ p {
 }
 
 .float-left {
+    /* selector controls position of the image in the Search Engine Optimization and Social Media Marketing boxes */
     float: left;
     margin-right: 25px;
 }
 
 .float-right {
+    /* selector Controls the position of the image in the Online Reputation Management box */
     float: right;
     margin-left: 25px;
 }
 
 .content {
+    /* selector Controls the size and location of the three boxes in the main body of the web page: Search Engine Optimization, online Reputation Management and Social Media marketing */
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+.main_article_boxes{
+    /* selector applies to each individual box item on the main web page. does not apply to the side box */
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.main_article_boxes img {
+    /* selector which governs the height of the three images in the main body of the webpage */
+    max-height: 200px;
+}
+
+.main_article_boxes h2 {
+   /* selector style for the headers in the thre boxes on the main section of the webpage */
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/*primary style selectors for the side menu of the webpage */
 .benefits {
+    /* selector governs the general attributes of the box on the side of the page containing lead generation, brand awareness an cost management sections */
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -89,40 +122,26 @@ p {
 }
 
 .benefits-section{
-
+    /* selector controls location and text color of the three sections in the aside box */
     margin-bottom: 32px;
     color: #ffffff;
 }
 
 .benefits-section h3 {
+    /* selector controls the location and alignment of the three header elements in the aside box */
     margin-bottom: 10px;
     text-align: center;
 }
 
 
 .benefits-section img {
+    /* selector controls the location and size of the three icons in the aside box*/
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.main_article_boxes{
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.main_article_boxes img {
-    max-height: 200px;
-}
-
-.main_article_boxes h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
+/*primary Style selectors for the footer of the webpage */
 
 .footer {
     padding: 30px;
