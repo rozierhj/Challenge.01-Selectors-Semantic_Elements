@@ -1,4 +1,4 @@
-# Challenge.01 CSS Selectors and Semantic Elements 
+# Challenge.01 Refactor CSS Selectors and Semantic Elements 
 
 ## Description
 
